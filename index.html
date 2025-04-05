@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=VT323&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Audiowide&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./styles.css">
+    <script src="./scripts.js"></script>
+    <link rel="icon" type="image/png" href="./images/logo.png">
+</head>
+<body>
+    <header>
+        <a href="#" class="logo-holder">
+            <img src="./Images/logo.png" alt="Logo" class="logo">
+            <div class="logo-text">Portfolio</div>
+        </a>
+        <nav> 
+            <ul id="menu">
+                <li>
+                    <button id="dark-mode-toggle" class="button">Dark Mode</button>
+                </li>
+                <li>
+                    <a href="#skills">Skills</a>
+                </li>
+                <li>
+                    <a href="#experience">Experience</a>
+                </li>
+                <li>
+                    <a href="#projects">Projects</a>
+                </li>
+                <li>
+                    <a href="#education">Education</a>
+                </li>
+                <li>
+                    <a href="#about-me">Contact Info</a>
+                </li>
+                <li>
+                    <a href="mailto:antonio.obeid@yahoo.com" class="button">E-Mail Me</a>
+                </li>
+            </ul>
+            
+            <a href="#" class="handheld-mode" onclick="toggleHandHeldMenu();">
+                <svg class="w-6 h-6 text-gray-800 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+                <path stroke="currentColor" stroke-linecap="round" stroke-width="2" d="M5 7h14M5 12h14M5 17h10"/>
+              </svg>  
+            </a>
+        </nav>
+    </header>
+    <main>
+        <section class="hero container">
+            <div class="hero-secondary">
+                <div>
+                    <h1>
+                        <small>
+                            Hello I'm
+                        </small>
+                        Antonio Obeid
+                    </h1>
+                    <p>
+                        I am a passionate game programmer with a love for creating immersive and engaging gaming experiences. I bring creativity and a keen eye for detail to my work. I believe that the best games are those that tell a compelling story and provide a seamless user experience, and I strive to achieve these qualities in every game I develop.
+                        <span>
+                            
+                        </span>
+                    </p>
+                    <div class="call-to-action">
+                        <a href="./CV_Obeid_Antonio.pdf" class="button black">
+                            View Resume
+                        </a>
+                        <a href="https://github.com/Antonio-Obeid/Game-Projects-Scripts" class="button white">
+                            Scripts
+                        </a>
+                    </div>
+                    <div class="social-links">
+                        <a href="https://github.com/Antonio-Obeid">
+                            <img src="./Images/GitHub.png" alt="GitHub" width="70" />
+                        </a>
+                        <a href="https://linkedin.com/in/antonio-obeid">
+                            <img src="./Images/LinkedIn.png" alt="LinkedIn" width="70" />
+                        </a>
+                        <a href="https://futuregames.se/antonio-obeid-programmer-with-a-passion-for-gamedev/">
+                            <img src="./Images/Futuregames.png" alt="Futuregames" width="70" />
+                        </a> 
+                    </div>
+                </div>
+            </div>
+            <div class="hero-primary">
+                <image src="./Images/ProfilePicture.png" alt="ProfilePicture" width="100%"/>
+            </div>
+        </section>
+        <section class="logos container">
+            <div class="marquee">
+                <div class="track">
+                    <img src="./Images/UnrealEngine.png" alt="Unreal Engine" height="125" width="125" />
+                    <img src="./Images/Cpp.png" alt="C++" height="125" width="125" />
+                    <img src="./Images/UnityEngine.png" alt="Unity Engine" height="125" width="111" />
+                    <img src="./Images/Csharp.png" alt="C#" height="125" width="125" />
+                    <img src="./Images/jira.png" alt="Jira" width="128" />
+                    <img src="./Images/preforce.png" alt="Preforce" width="128" />
+                    <img src="./Images/GitHub.png" alt="GitHub" width="128" />
+                    <img src="./Images/miro.png" alt="Miro" width="128" />
+                    <img src="./Images/UnrealEngine.png" alt="Unreal Engine" height="125" width="125" />
+                    <img src="./Images/Cpp.png" alt="C++" height="125" width="125" />
+                    <img src="./Images/UnityEngine.png" alt="Unity Engine" height="125" width="111" />
+                    <img src="./Images/Csharp.png" alt="C#" height="125" width="125" />
+                    <img src="./Images/jira.png" alt="Jira" width="128" />
+                    <img src="./Images/preforce.png" alt="Preforce" width="128" />
+                    <img src="./Images/GitHub.png" alt="GitHub" width="128" />
+                    <img src="./Images/miro.png" alt="Miro" width="128" />
+                    <img src="./Images/UnrealEngine.png" alt="Unreal Engine" height="125" width="125" />
+                    <img src="./Images/Cpp.png" alt="C++" height="125" width="125" />
+                    <img src="./Images/UnityEngine.png" alt="Unity Engine" height="125" width="111" />
+                    <img src="./Images/Csharp.png" alt="C#" height="125" width="125" />
+                </div>
+            </div>
+        </section>
+        <section id="skills" class="skills container">
+            <h2>
+                <small>Acquired</small>
+                Skills
+            </h2>
+            <div class="holder-secondary">
+                <div class="left-column">
+                    <h3>
+                        Languages
+                    </h3>
+                    <ul>
+                        <li>
+                            C++
+                        </li>
+                        <li>
+                            C#
+                        </li>
+                    </ul>
+                    <h3>
+                        Game Engines
+                    </h3>
+                    <ul>
+                        <li>
+                            Unreal Engine
+                        </li>
+                        <li>
+                            Unity Engine
+                        </li>
+                    </ul>
+                    <h3>
+                        Software Used
+                    </h3>
+                    <ul>
+                        <li>
+                            Jira
+                        </li>
+                        <li>
+                            Preforce
+                        </li>
+                        <li>
+                            Github
+                        </li>
+                        <li>
+                            Miro
+                        </li>
+                    </ul>
+                </div>
+                <div class="right-column">
+                    <h3>
+                        About Me
+                    </h3>
+                    <p>
+                        Before attending Futuregames Warsaw, I had no prior experience with programming languages. 
+                        The journey required me to immerse myself in learning and understanding each language from the ground up.        
+                    </p>
+                    <p>
+                        Despite the challenges, I demonstrated adaptability and perseverance, successfully completing my programming tasks. 
+                        This experience has underscored my ability to navigate complex situations and deliver results.
+                    </p>
+                    <p>
+                        I'm always looking for new challenges and ways to push the boundaries of what's possible in game development. In my spare time, I enjoy playing videogames such as Hellblade, Hollow Knight, The Witcher 3, Outlast, Max Payne, Fortnite and there are too many great games that makes it impossible to complete this list. I've worked on a variety of projects which includes a mobile game.
+                    </p>
+                    <p>
+                        What sets me apart is my ability to cope and adjust with different teams when there are blockers to solve, which has allowed me to complete my tasks on time and help the project move forward.
+                    </p>
+                </div>
+
+            </div>
+        </section>
+        <section id="experience" class="work-experience container">
+            <h2>
+                <small>
+                    Recent
+                </small>
+                Work Experience
+            </h2>
+            <div class="jobs">
+                <article>
+                    <figure>
+                        <div>
+                            <a href="https://better-cooperate.online/">
+                                <img src="./Images/BetterCooperate.png" alt="BetterCooperate" width="100%" />
+                                <figcaption>
+                                    Space Misfits
+                                </figcaption>
+                            </a>
+                        </div>
+                    </figure>
+                    <h3>
+                        Better Corporate
+                    </h3>
+                    <p>
+                        Feb 2025 - Current
+                    </p>
+                    <p>
+                        Sponsored by the european union to create a card game called Space Misfits
+                    </p>
+                </article>
+            </div>
+        </section>
+        <section id="projects" class="bento container">
+            <h2>
+                <small>
+                    Previous
+                </small>
+                Completed Projects
+            </h2>
+        <div class="bento-grid">
+            <a href="https://futuregames.itch.io/the-neighbourhood-accident" class="bento-item">
+                <img src="./Images/Project-1.png" alt="Project1" width="100%" />
+                <figcaption>
+                    Unity Engine [Game Project 1]
+                </figcaption>
+            </a>
+            <a href="https://futuregames.itch.io/skybound" class="bento-item">
+                <img src="./Images/Project-2.png" alt="Project2" width="100%" />
+                <figcaption>
+                    Unity Engine [Game Project 2]
+                </figcaption>
+            </a>
+            <a href="https://futuregames.itch.io/cookies-screams" class="bento-item">
+                <img src="./Images/Project-3.png" alt="Project3" width="100%" />
+                <figcaption>
+                    Unreal Engine [Game Project 3]
+                </figcaption>
+            </a>
+            <a href="https://futuregames.itch.io/shatteredground" class="bento-item">
+                <img src="./Images/Project-4.png" alt="Project4" width="100%" />
+                <figcaption>
+                    Unreal Engine [Game Project 4]
+                </figcaption>
+            </a>
+            <a href="#" class="bento-item">
+                <img src="./Images/Space Misfits.png" alt="Space Misfits" width="100%" />
+                <figcaption>
+                    Unity Engine [In Progress]
+                </figcaption>
+            </a>
+        </div>
+        </section>
+        <section id="education" class="my-education container">
+            <h2>
+                <small>
+                    My
+                </small>
+                Education
+            </h2>
+            <div class="education">
+                <article>
+                    <figure>
+                        <a href="https://futuregames.se/pl/">
+                            <img src="./Images/Futuregames Warsaw.png" alt="Futuregames Warsaw" width="100%" />
+                            <figcaption>
+                                Warsaw Division
+                            </figcaption>
+                        </a>
+                    </figure>
+                    <h3>
+                        Futuregames
+                    </h3>
+                    <p>
+                        Game Programmer Course
+                    </p>
+                    <p>
+                        August 2023 - Current
+                    </p>
+                </article>
+            </div>
+        </section>
+
+        <section id="about-me" class="work-together container">   
+            <h2>
+                <small>
+                    Let's     
+                </small>
+                Work Together
+            </h2>
+            <div class="contact-info">
+                <p>Mail me:</p>
+                <h4>antonio.obeid@yahoo.com</h4>
+                <p>Discord:</p>
+                <h4>antonio_obeid</h4>
+            </div>
+        </section>
+
+        <section class="map container">
+            <h2><small>My</small> Location</h2>
+            <div class="map-location">
+                <article>
+                    <h3>Jounieh, Lebanon</h3>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d26466.563420677227!2d35.61384959191105!3d33.98430246892412!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x151f40c4257f7eb9%3A0x622d4edf2e7a984!2sJounieh!5e0!3m2!1sen!2slb!4v1715947679951!5m2!1sen!2slb" 
+                        frameborder="0" allowfullscreen aria-hidden="false" tabindex="0">
+                    </iframe>
+                </article>
+            </div>
+        </section>
+
+        <section class="copyright container">
+        <div class="marquee">
+            <div class="track">
+                <h2>               
+                    &copy; Antonio Obeid
+                    <small>
+                        All Right Reserved
+                    </small>
+                </h2> 
+            </div>
+        </div>
+        </section>
+
+        <a href="#" id="backToTop">
+        <img src="./Images/back-to-top.png" alt="Back-to-Top" />
+        </a>
+
+    </main>
+</body>
+</html>
